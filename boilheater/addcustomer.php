@@ -1,6 +1,6 @@
 <?php
 
-$con=mysqli_connect("localhost","id2587951_root","tharindu");
+$con=mysqli_connect("mysql1.000webhost.com","id2587951_root","tharindu");
 //or die("Access denied");
 if(!$con){
     echo 'not connected';
