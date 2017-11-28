@@ -1,11 +1,11 @@
 <?php
 
-$con=mysqli_connect("localhost","root","");
+$con=mysqli_connect("localhost","root","tharindu");
 //or die("Access denied");
 if(!$con){
     echo 'not connected';
 }
-$res=mysqli_select_db($con,"boilheater");
+$res=mysqli_select_db($con,"id2587951_boilheater");
 if(!$res){
 echo "Connetion Faliur";
 }else{
