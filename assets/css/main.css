@@ -4311,6 +4311,10 @@
 
 		}
 
+button alt{
+	z-index:0;
+	
+}
 #snow{
 	background: none;
 	font-family: Androgyne;
